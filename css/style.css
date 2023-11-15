@@ -205,10 +205,20 @@
 
 /*** About ***/
 .about {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about.jpg) left center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about.jpg) left no-repeat;
     background-size: cover;
 }
 
+.bg-white-transparent {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.about-2{
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about-2.jpg) left center no-repeat;
+    background-size: cover;
+
+}
 .btn-play {
     position: relative;
     display: block;
